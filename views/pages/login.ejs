@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head') %>
+    <title>Best Gym</title>
+</head>
+
+<body class="bg-white">
+   
+  <nav>
+    <%- include('../partials/nav') %>
+   </nav>  
+  
+<!--login form -->
+    <form action="/login" method="post">
+        
+        <label for=""> FirstName : </label>
+        <input type="text" name="username" id="username"  required>  
+        <label for=""> lastName</label>
+        <input type="text" name="lastName" id="lastName"   required>
+        <label for="">phone number</label>
+        <input type="text" name="phone" id="phone" required>
+        <label for="">password</label>
+        <input type="password" name="password" id="password" required>
+        <input type="submit" >
+    </form>
+    <!-- Footer Start -->
+  <footer>
+        <%- include('../partials/footer') %>
+   </footer> 
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

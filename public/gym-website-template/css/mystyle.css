@@ -1,0 +1,13 @@
+.location-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .location-section h4 {
+    color: red;
+  }
+  
+  .location-section iframe {
+    border-radius: 5px;
+  }
+  
